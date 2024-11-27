@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aefac61f63.js" crossorigin="anonymous"></script>
+</head>
+
+<div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB-Developer</p>
+                <h1>Hi, I'm <span>Yash</span><br>Lagare From Kagal</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="Images/img1.jpg">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I’m Yash Yuvaraj Lagare, a passionate technology enthusiast from Kagal.
+
+                        With a strong foundation in computer science, I thrive on exploring innovative solutions and
+                        staying at the forefront of technological advancements. I am committed to continually enhancing
+                        my skills and knowledge, ensuring I can make meaningful contributions to the IT industry.
+
+                        Driven by curiosity and a desire to excel, I am focused on building a successful career where I
+                        can leverage my expertise, grow professionally, and create impactful solutions that
+                        make a difference.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Database Management</span><br>SQL: Strong understanding of relational databases
+                            </li>
+                            <li><span>Other Skills</span><br>Familiarity with development tools like Git/Github, VScode
+                                and IDEs (e.g., IntelliJ IDEA, Eclipse).</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>fresher</span><br></li>
+                            <!-- <li><span>Database Management</span><br>SQL: Strong understanding of relational databases</li>
+                                        <li><span>Other Skills</span><br>Familiarity with development tools like Git/Github, VScode and IDEs (e.g., IntelliJ IDEA, Eclipse).</li> -->
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Pursuing Course Complete At 2026</span><br>MCA( Master of Computer Applications)
+                                From D.Y.Patil University, Talsande.</li>
+                            <li><span>2024</span><br>B.Sc. in (Computer Science) from D.R.Mane College, Kagal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <!--------------------------- after some time when we proived Services we can info & font by using fontawesome --------------------------->
+
+                <!-- 1st Service -->
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+
+                    <h2>None</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- 2nd Service -->
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>None</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- 3rd Service -->
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>None</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------portfolio-------------- -->
+
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="Work-List">
+                <div class="Work">
+                    <img src="Images/1.avif">
+                    <div class="layer">
+                        <h3>web Application</h3>
+                        <p>This web Application is a simple web application that allows users to book hotels without any
+                            hassle.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="Images/2.jpg">
+                    <div class="layer">
+                        <h3>web Application</h3>
+                        <p>This web Application is a simple web application that allows users to book hotels without any
+                            hassle.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="Images/3.webp">
+                    <div class="layer">
+                        <h3>web Application</h3>
+                        <p>This web Application is a simple web application that allows users to book hotels without any
+                            hassle.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> yashlagare77@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7499768610</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/yashlagare/?hl=en"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="Images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Your Name" required pattern="[A-Za-z\s]+"
+                            title="Name should only contain letters and spaces">
+                        <input type="email" name="Email" placeholder="Your Email" required
+                            title="Please enter a valid Gmail address">
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="Copyright">
+            <p>Copyright © Yash<i class="fa-solid fa-heart"></i>.</p>
+        </div>
+    </div>
+    <script>
+        // section for diplyaing the tabs
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- ------------------contact script----------------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-ghcWzPtheTBcm0AX_WdWmjQSI256jkcaIq0nxfqjOfJeOsgkff-fdMnC_bORKCCNxQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msgElement = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = " "
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+
+</html>
